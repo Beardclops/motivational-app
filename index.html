@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Daily Motivation</h1>
+        <div id="loading" style="display: none;">Loading...</div>
+        <p id="quote">Fetching your quote...</p>
+        <p id="author"></p>
+        <button id="refresh">Get New Quote</button>
+        <button id="save-quote">Save Quote</button>
+        <button id="toggle-theme">Toggle Dark Mode</button>
+        <h2>Saved Quotes</h2>
+        <div id="saved-quotes"></div>
+    </div>
+    <!-- Include the Axios library -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Include your custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
